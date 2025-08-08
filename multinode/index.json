@@ -1,20 +1,19 @@
-
 {
   "title": "Two Node Ubuntu Lab",
-  "description": "A simple two-node network with Server and Client for SSH practice.",
-  "details": {
-    "steps": [
-      {
-        "title": "Welcome",
-        "text": "This lab has two Ubuntu nodes. Node01 is the server, Node02 is the client."
-      }
-    ]
-  },
+  "description": "Practice networking between two Ubuntu nodes (Server and Client).",
   "backend": {
     "imageid": "ubuntu:20.04",
     "nodes": [
       { "name": "node01" },
       { "name": "node02" }
+    ]
+  },
+  "details": {
+    "steps": [
+      {
+        "title": "Welcome to the Lab",
+        "text": "This lab gives you two Ubuntu machines on the same network.\n\n- node01 = Server\n- node02 = Client\n\nYou can use `ping`, `ssh`, or any networking tools to test connectivity."
+      }
     ]
   }
 }

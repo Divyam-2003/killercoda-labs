@@ -2,7 +2,7 @@
   "title": "Two Node Ubuntu Lab",
   "description": "Practice networking between two Ubuntu nodes (Server and Client).",
   "backend": {
-    "imageid": "ubuntu:20.04",
+    "imageid": "ubuntu",
     "nodes": [
       { "name": "node01" },
       { "name": "node02" }

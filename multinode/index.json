@@ -12,7 +12,7 @@
     "steps": [
       {
         "title": "Welcome to the Lab",
-        "text": "This lab gives you two Ubuntu machines on the same network.\n\n- node01 = Server\n- node02 = Client\n\nYou can use `ping`, `ssh`, or any networking tools to test connectivity."
+        "text": "step1.md"
       }
     ]
   }

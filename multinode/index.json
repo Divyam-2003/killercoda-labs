@@ -1,0 +1,20 @@
+
+{
+  "title": "Two Node Ubuntu Lab",
+  "description": "A simple two-node network with Server and Client for SSH practice.",
+  "details": {
+    "steps": [
+      {
+        "title": "Welcome",
+        "text": "This lab has two Ubuntu nodes. Node01 is the server, Node02 is the client."
+      }
+    ]
+  },
+  "backend": {
+    "imageid": "ubuntu:20.04",
+    "nodes": [
+      { "name": "node01" },
+      { "name": "node02" }
+    ]
+  }
+}

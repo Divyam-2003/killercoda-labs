@@ -4,8 +4,8 @@
   "backend": {
     "imageid": "ubuntu",
     "nodes": [
-      { "name": "node01" },
-      { "name": "node02" }
+      { "name": "node01", "hostname": "server" },
+      { "name": "node02", "hostname": "client" }
     ]
   },
   "details": {
